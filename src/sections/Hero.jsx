@@ -2,11 +2,11 @@ import { useState } from "react";
 
 import { shoes, statistics } from "../constants";
 import { Button, ShoeCard } from "../components";
-import { bigShoe1 } from "../assets/images";
+import {  Image1 } from "../assets/images";
 import { arrowRight } from "../assets/icons";
 
 const Hero = () => {
-  const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
+  const [bigShoeImg, setBigShoeImg] = useState( Image1 );
 
   return (
     <section
@@ -20,10 +20,10 @@ const Hero = () => {
 
         <h1 className='mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold'>
           <span className='xl:bg-white xl:whitespace-nowrap relative z-10 pr-10'>
-            The New Arrival
+            R V Engineering
           </span>
           <br />
-          <span className='text-violet-700 inline-block mt-3'>Nike</span> Shoes
+          <span className='text-violet-700 inline-block mt-3'></span> Works
         </h1>
         <p className='font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>
           Discover stylish Nike arrivals, quality comfort, and innovation for
@@ -44,12 +44,12 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center'>
+      <div className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-center'>
         <img
           src={bigShoeImg}
           alt='shoe colletion'
-          width={610}
-          height={502}
+          width={450}
+          height={450}
           className='object-contain relative z-10'
         />
 
