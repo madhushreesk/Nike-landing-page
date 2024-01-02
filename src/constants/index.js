@@ -1,10 +1,9 @@
 import {
+  whatsapp,
   facebook,
-  instagram,
   shieldTick,
   support,
   truckFast,
-  twitter,
 } from "../assets/icons";
 import {
   customer1,
@@ -129,7 +128,7 @@ export const footerLinks = [
   {
     title: "Hours of Operation",
     links: [
-      { name: "Monday - Friday :	8:30 AM – 5:00PM" },
+      { name: "Monday - Saturday :	8:30 AM – 5:00PM" },
 
       { name: "Sunday: Holiday" },
     ],
@@ -139,17 +138,18 @@ export const footerLinks = [
     links: [
       {
         name: "S V Road, Angol Road Belgaum, Karnataka 590006",
-        link: "mailto:customer@nike.com",
+        link: "https://www.google.com/maps/dir//R+V+Engineering+Works/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bbf669f5095362f:0x52a0bba40bf5e482!2m2!1d74.50466899999999!2d15.850359999999998",
       },
+
       { name: "0831 248 0056", link: "tel:0831 248 0056" },
     ],
   },
 ];
 
 export const socialMedia = [
-  { src: facebook, alt: "facebook logo" },
-  { src: twitter, alt: "twitter logo" },
-  { src: instagram, alt: "instagram logo" },
+  { src: whatsapp, alt: "whatsapp logo", name: "9880975593" },
+  // { src: facebook, alt: "facebook logo" },
+  // { src: twitter, alt: "twitter logo" },
 ];
 
 export const footerTimings = [];

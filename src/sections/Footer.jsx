@@ -9,15 +9,16 @@ const Footer = () => {
          
           <div className="text-white text-2xl font-montserrat font-bold">R V Engineering</div>
           <p className='mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm'>
-          “R V Engineering” is engaged in production of Engineering equipments, Hydraulic jacks Hydraulic cylinder power packs, all types of mechanical as well as hydraulic units as per customer’s specification.
+          R V Engineering is engaged in production of Engineering equipments, Hydraulic jacks Hydraulic cylinder power packs, all types of mechanical as well as hydraulic units as per customer’s specification.
           </p>
-          <div className='flex items-center gap-5 mt-8'>
+          <div className='flex items-center gap-5 mt-4 ml-10'>
             {socialMedia.map((icon) => (
               <div
-                className='flex justify-center items-center w-12 h-12 bg-white rounded-full'
+                className='flex justify-center items-center w-12 h-12  rounded-full'
                 key={icon.alt}
               >
-                <img src={icon.src} alt={icon.alt} width={24} height={24} />
+                <img href="" src={icon.src} alt={icon.alt} width={30} height={24} /> 
+                <span className="text-white-400 ml-2 font-montserrat"> 9880975593</span>
               </div>
             ))}
           </div>
@@ -38,7 +39,7 @@ const Footer = () => {
                     className='mt-3 font-montserrat text-base leading-normal text-white-400 hover:text-slate-gray'
                     key={link.name}
                   >
-                    <a href={link.link}>{link.name}</a>
+                    <a target="_blank" href={link.link}>{link.name}</a>
                   </li>
                 ))}
               </ul>
