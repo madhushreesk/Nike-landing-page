@@ -7,10 +7,9 @@ const Footer = () => {
       <div className='flex justify-between items-start gap-20 flex-wrap max-lg:flex-col'>
         <div className='flex flex-col items-start'>
          
-          <div className="text-white text-2xl font-montserrat">R V Engineering</div>
+          <div className="text-white text-2xl font-montserrat font-bold">R V Engineering</div>
           <p className='mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm'>
-            Get shoes ready for the new term at your nearest Nike store. Find
-            Your perfect Size In Store. Get Rewards
+          “R V Engineering” is engaged in production of Engineering equipments, Hydraulic jacks Hydraulic cylinder power packs, all types of mechanical as well as hydraulic units as per customer’s specification.
           </p>
           <div className='flex items-center gap-5 mt-8'>
             {socialMedia.map((icon) => (
@@ -23,6 +22,9 @@ const Footer = () => {
             ))}
           </div>
         </div>
+
+
+        
 
         <div className='flex flex-1 justify-between lg:gap-10 gap-20 flex-wrap'>
           {footerLinks.map((section) => (
@@ -43,6 +45,8 @@ const Footer = () => {
             </div>
           ))}
         </div>
+
+      
       </div>
 
       <div className='flex justify-between text-white-400 mt-24 max-sm:flex-col max-sm:items-center'>

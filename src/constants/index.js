@@ -7,15 +7,8 @@ import {
   twitter,
 } from "../assets/icons";
 import {
-  bigShoe1,
-  bigShoe2,
-  bigShoe3,
   customer1,
   customer2,
-  shoe4,
-  shoe5,
-  shoe6,
-  shoe7,
   thumbnailShoe1,
   thumbnailShoe2,
   thumbnailShoe3,
@@ -112,32 +105,43 @@ export const reviews = [
 ];
 
 export const footerLinks = [
+  // {
+  //   title: "Products",
+  //   links: [
+  //     { name: "Air Force 1", link: "/" },
+  //     { name: "Air Max 1", link: "/" },
+  //     { name: "Air Jordan 1", link: "/" },
+  //     { name: "Air Force 2", link: "/" },
+  //     { name: "Nike Waffle Racer", link: "/" },
+  //     { name: "Nike Cortez", link: "/" },
+  //   ],
+  // },
+  // {
+  //   title: "Help",
+  //   links: [
+  //     { name: "About us", link: "/" },
+  //     { name: "FAQs", link: "/" },
+  //     { name: "How it works", link: "/" },
+  //     { name: "Privacy policy", link: "/" },
+  //     { name: "Payment policy", link: "/" },
+  //   ],
+  // },
   {
-    title: "Products",
+    title: "Hours of Operation",
     links: [
-      { name: "Air Force 1", link: "/" },
-      { name: "Air Max 1", link: "/" },
-      { name: "Air Jordan 1", link: "/" },
-      { name: "Air Force 2", link: "/" },
-      { name: "Nike Waffle Racer", link: "/" },
-      { name: "Nike Cortez", link: "/" },
+      { name: "Monday - Friday :	8:30 AM – 5:00PM" },
+
+      { name: "Sunday: Holiday" },
     ],
   },
   {
-    title: "Help",
+    title: "Get Direction",
     links: [
-      { name: "About us", link: "/" },
-      { name: "FAQs", link: "/" },
-      { name: "How it works", link: "/" },
-      { name: "Privacy policy", link: "/" },
-      { name: "Payment policy", link: "/" },
-    ],
-  },
-  {
-    title: "Get in touch",
-    links: [
-      { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-      { name: "+92554862354", link: "tel:0831 248 0056" },
+      {
+        name: "S V Road, Angol Road Belgaum, Karnataka 590006",
+        link: "mailto:customer@nike.com",
+      },
+      { name: "0831 248 0056", link: "tel:0831 248 0056" },
     ],
   },
 ];
@@ -147,3 +151,5 @@ export const socialMedia = [
   { src: twitter, alt: "twitter logo" },
   { src: instagram, alt: "instagram logo" },
 ];
+
+export const footerTimings = [];
