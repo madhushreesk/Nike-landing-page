@@ -9,7 +9,7 @@ const Footer = () => {
          
           <div className="text-white text-2xl font-montserrat font-bold">R V Engineering</div>
           <p className='mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm'>
-          R V Engineering is engaged in production of Engineering equipments, Hydraulic jacks Hydraulic cylinder power packs, all types of mechanical as well as hydraulic units as per customer’s specification.
+          R V Engineering is engaged in production of Engineering equipments,  Hydraulic jacks Hydraulic cylinder power packs, all types of mechanical as well as hydraulic units as per customer’s specification.
           </p>
           <div className='flex items-center gap-5 mt-4 ml-10'>
             {socialMedia.map((icon) => (

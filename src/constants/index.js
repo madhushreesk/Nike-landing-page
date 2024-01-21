@@ -141,7 +141,7 @@ export const footerLinks = [
         link: "https://www.google.com/maps/dir//R+V+Engineering+Works/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bbf669f5095362f:0x52a0bba40bf5e482!2m2!1d74.50466899999999!2d15.850359999999998",
       },
 
-      { name: "0831 248 0056", link: "tel:0831 248 0056" },
+      { name: "Call : 0831 248 0056", link: "tel:0831 248 0056" },
     ],
   },
 ];
